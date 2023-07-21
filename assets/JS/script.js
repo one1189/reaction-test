@@ -2,7 +2,7 @@ function lightsOut() {
     let lightBox = document.getElementsByClassName("lights-container");
     
     for (let i = 0; i < lightBox.length; i++) {
-        lightBox[i].getElementsByClassName('light-1')[0].style.backgroundColor = "#dc3545";
+        lightBox[i].getElementByID("light")[0].style.backgroundColor = "#dc3545";
     };
     //currently only changes the first light. Needs to cycle through 4 more.
     //on the fifth light, a duration of 0.2 to 3 seconds is required before the timer starts

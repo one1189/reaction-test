@@ -18,11 +18,7 @@
     justify-content: space-around;
 }
 
-.light-1,
-.light-2,
-.light-3,
-.light-4,
-.light-5 {
+#light {
     border: 1px solid black;
     height: 50px;
     width: 50px;
